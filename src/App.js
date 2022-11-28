@@ -1,10 +1,10 @@
 import { useEffect, useState } from "react";
-import UseFetch from "./hooks/useFetch";
+import useFetch from "./hooks/useFetch";
 import "./App.css";
 
 function App() {
   // Creamos nuestro Hook
-  const [setPokemon, searchData] = UseFetch();
+  const [setPokemon, searchData] = useFetch();
 
   const [allPokemon, setAllPokemon] = useState();
 

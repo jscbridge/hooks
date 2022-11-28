@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 
-const UseFetch = ( ) => {
+const useFetch = ( ) => {
   const [searchData, setSearchData] = useState([]);
   const [pokemon, setPokemon] = useState("pikachu");
 
@@ -15,4 +15,4 @@ const UseFetch = ( ) => {
   return [setPokemon, searchData];
 };
 
-export default UseFetch;
+export default useFetch;
